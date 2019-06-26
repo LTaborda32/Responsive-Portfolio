@@ -215,3 +215,30 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media(max-width:640px){
+  nav{
+    float: left;
+    text-align: center;
+    margin-left: 150px;
+  }
+
+  #logo{
+    width: 640px;
+    margin-left: -15px; 
+  }
+
+  .auth-image{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .main-section{
+    margin-top: 50px;
+  }
+
+
+
+
+}
